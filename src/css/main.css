@@ -1036,6 +1036,22 @@ video {
 }
 
 @media (min-width: 576px) {
+  .sm\:-right-10 {
+    right: -2.5rem;
+  }
+
+  .sm\:-right-40 {
+    right: -10rem;
+  }
+
+  .sm\:-right-36 {
+    right: -9rem;
+  }
+
+  .sm\:-right-32 {
+    right: -8rem;
+  }
+
   .sm\:max-w-\[576px\] {
     max-width: 576px;
   }
@@ -1070,6 +1086,10 @@ video {
 
   .md\:pr-6 {
     padding-right: 1.5rem;
+  }
+
+  .md\:pt-16 {
+    padding-top: 4rem;
   }
 
   .md\:text-4xl {
@@ -1143,6 +1163,10 @@ video {
 
   .xl\:pt-\[120px\] {
     padding-top: 120px;
+  }
+
+  .xl\:pt-20 {
+    padding-top: 5rem;
   }
 
   .xl\:text-\[40px\] {
